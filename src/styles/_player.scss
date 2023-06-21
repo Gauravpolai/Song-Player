@@ -4,18 +4,24 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    font-family: 'Press Start 2P', cursive;
 }
 
 .time-control{
     width: 50%;
     display: flex;
     // background-color: aqua;
+    align-items: center;
     justify-content: space-between;
     margin-top: 0.3rem;
 
     input{
         width: 100%;
-        padding: 0rem 0rem;
+        padding: 0px;
+        -webkit-appearance: none;
+        background: rgb(140, 138, 173);
+        border-radius: 2rem;
+        cursor: pointer;
     }
    
 }
@@ -27,6 +33,19 @@
     width: 40%;
     
     svg{
-         cursor: pointer;
+        cursor: pointer;
     }
+}
+// font-family: 'Press Start 2P', cursive;
+
+input[type="range"]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: black;
+}
+
+.track{
+    width:100%;
 }
