@@ -1,7 +1,7 @@
 import React from "react"; 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faPlay, faAngleLeft, faAngleRight, faPause} from "@fortawesome/free-solid-svg-icons"
-import { playaudio } from "../util1";
+// import { playaudio } from "../util1";
 
 export default function Player({currentsong, isplaying,timehandler,setsonginfo,songinfo, setisplaying,audioref, setcurrentsong,songs}){
 

@@ -25,6 +25,19 @@ function App() {
         setsonginfo({...songinfo, currentTime :current, duration: eduration,})
     }
 
+    const songend=async()=>{
+      let currentindex=songs.findIndex((song)=> song.id===currentsong.id);
+      await setcurrentsong(songs[currentindex+1])
+
+      if(isplaying)audioref.current.play();
+
+      if(isplaying!==undefined){
+        
+          audioref.current.pause();
+        }
+      
+    }
+
 
     //state
     const [songs, setsongs] = useState(data());//returns the whole bunch of array of obejcts of songs.
@@ -75,6 +88,7 @@ function App() {
         ref={audioref} 
         onTimeUpdate={timehandler}
         onLoadedMetadata={timehandler}
+        onEnded={songend}
       ></audio>
 
     </div>

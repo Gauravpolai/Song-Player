@@ -73,3 +73,9 @@ background-color: rgb(125, 133, 172);}
 .active-library{
     transform:translatex(0) ;
 }
+@media screen and (max-width: 768px) {
+    .library{
+        width: 80%;
+    }
+    
+}
