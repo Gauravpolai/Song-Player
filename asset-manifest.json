@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "//gauravpolai.github.io/Song-Player/static/css/main.092ef3f3.css",
+    "main.js": "//gauravpolai.github.io/Song-Player/static/js/main.9216eb01.js",
+    "static/js/787.27c85c39.chunk.js": "//gauravpolai.github.io/Song-Player/static/js/787.27c85c39.chunk.js",
+    "index.html": "//gauravpolai.github.io/Song-Player/index.html",
+    "main.092ef3f3.css.map": "//gauravpolai.github.io/Song-Player/static/css/main.092ef3f3.css.map",
+    "main.9216eb01.js.map": "//gauravpolai.github.io/Song-Player/static/js/main.9216eb01.js.map",
+    "787.27c85c39.chunk.js.map": "//gauravpolai.github.io/Song-Player/static/js/787.27c85c39.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.092ef3f3.css",
+    "static/js/main.9216eb01.js"
+  ]
+}
